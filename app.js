@@ -16,7 +16,7 @@ app.use(express.json());
 // Configure CORS to allow requests from your frontend origin
 app.use(
     cors({
-        origin: ["http://localhost:3000", "https://cliniclog-app.onrender.com"],
+        origin: ["http://localhost:3000", "https://https://cliniclogs.netlify.app/"],
         methods: "GET,HEAD,PUT,PATCH,UPDATE,POST,DELETE",
         credentials: true,
     })
